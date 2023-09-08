@@ -1,0 +1,95 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>16.0.20413.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Sales_Olap_Cube.database</Name>
+    <FullPath>Sales_Olap_Cube.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>db_____cube.cube</Name>
+      <FullPath>db_____cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>db_____cube.partitions</Name>
+          <FullPath>db_____cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Shipping Method.dim</Name>
+      <FullPath>Dim Shipping Method.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Status.dim</Name>
+      <FullPath>Dim Status.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date Order.dim</Name>
+      <FullPath>Dim Date Order.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Supplier.dim</Name>
+      <FullPath>Dim Supplier.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Last Restock Date.dim</Name>
+      <FullPath>Dim Last Restock Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Warehouse.dim</Name>
+      <FullPath>Dim Warehouse.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>db______source.ds</Name>
+      <FullPath>db______source.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>db_____views.dsv</Name>
+      <FullPath>db_____views.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>db______source</Id>
+            <Name>db______source</Name>
+            <Value xsi:type="xsd:string">Data Source=LAPTOP-VQCV01FE\SQLEXPRESS;Initial Catalog=Sales_Olap_Loading_DW;User ID=;Password=</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionProviderMappings>
+          <ConfigurationSetting>
+            <Id>db______source</Id>
+            <Name>db______source</Name>
+            <Value xsi:type="xsd:string">System.Data.SqlClient</Value>
+          </ConfigurationSetting>
+        </ConnectionProviderMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>db______source</Id>
+            <Name>db______source</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>
